@@ -20,4 +20,4 @@ Libraries used: numpy, matplotib.
 
 ### Credits
 
-This code contains my modifications of what was mostly written by my professor of Phyiscs I, Luca Saglietti. Thank you, prof. Saglietti.
+This is a didactical project coded while studying Physics I with professor Luca Saglietti.
