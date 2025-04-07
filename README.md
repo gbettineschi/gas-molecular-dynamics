@@ -9,7 +9,7 @@ We make some assumptions about collisions; mainly:
 -   the collisions are elastic;
 -   the particles are approximated as hard spheres;
 -   there are no intermolecular forces;
--   the particles are asusmed to have no rotational degrees of freedom, i.e. to be monoatomic.
+-   the particles are assumed to have no rotational degrees of freedom, i.e. to be monoatomic.
 
 ## Credits
 The code was written while studying Physics at Bocconi University with Professor Luca Saglietti.
