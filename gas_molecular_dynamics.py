@@ -438,6 +438,7 @@ plt.close("all")
 f1 = plt.figure(figsize=(6.0, 8), dpi=120)
 f2 = plt.figure(figsize=(8.0, 4))
 
+## EXPERIMENTS SUGGESTION FROM PROF. SAGLIETTI
 ## EXPERIMENT 1:
 ## 1) Initialize only one moving particle (intialization="only_one")
 ## 2) look at the velocity histogram
@@ -467,8 +468,8 @@ f2 = plt.figure(figsize=(8.0, 4))
 ## Is it spending similar time in all possible regions of the container?
 
 ## EXAMPLE CODE
-N = 20 * 20  # too many particles and it will slow down a lot!
-ms = np.ones(N)  # choose the mass of the particles (1 is fine for starters!)
+N = 20 * 20 
+ms = np.ones(N)  
 
 rs, vs = trajectory(ms, T=2000, plot_time=2, v=5.0, seed=3234, initialization="uniform")
 # backwards in time
